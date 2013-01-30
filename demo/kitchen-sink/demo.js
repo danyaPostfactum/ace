@@ -686,8 +686,8 @@ require("ace/multi_select").MultiSelect(env.editor);
 
 function singleLineEditor(el) {
     var renderer = new Renderer(el);
-    renderer.scrollBar.element.style.display = "none";
-    renderer.scrollBar.width = 0;
+    //renderer.scrollBar.element.style.display = "none";
+    //renderer.scrollBar.width = 0;
     renderer.content.style.height = "auto";
 
     renderer.screenToTextCoordinates = function(x, y) {
